@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Mr. Mung" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<title>KHUTBAH NU</title>
+
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="jquery.mmenu.all.css" />
+		<style type="text/css"> 
+    @font-face {font-family: 'KFGQPC_Naskh'; src: url('KFC_naskh.eot'); src: local('KFGQPC Uthman Taha Naskh'), url('KFC_naskh.otf') format('opentype');}
+    </style>
+		<!-- for the one page layout -->
+		<style type="text/css">
+			section
+			{
+				border-top: 1px solid #ccc;
+				padding: 150px 0 200px;
+			}
+			section:first-child
+			{
+				border-top: none;
+				padding-top: 0;
+			}
+		</style>
+		
+		<!-- for the fixed header -->
+		<style type="text/css">
+			.header,
+			.footer
+			{
+				position: fixed;
+				left: 0;
+				right: 0;
+			}
+			.header
+			{
+				top: 0;
+			}
+			.footer
+			{
+				bottom: 0;
+			}
+			@media (min-width: 1920px) {
+				.header a
+				{
+					display: none;
+				}
+			}
+
+		</style>
+
+		
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="hammer.min.js"></script>
+
+		<script type="text/javascript" src="jquery.mmenu.all.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu({
+					drag 		: true,
+					pageScroll 	: {
+						scroll 		: true,
+						update		: true
+					},
+					// extensions: {
+					// 	'all': ['pagedim-white'],
+					// 	'(min-width: 400px)' : ['pagedim-black']
+					// },
+					sidebar 	: {
+						expanded 	: 1920
+					}
+				});
+			});
+		</script>
+<script type="text/javascript">
+        $(function () {
+            $(".font-button").bind("click", function () {
+                var size = parseInt($('#content').css("font-size"));
+                if ($(this).hasClass("plus")) {
+                    size = size + 2;
+                } else {
+                    size = size - 2;
+                    if (size <= 10) {
+                        size = 10;
+                    }
+                }
+                $('#content').css("font-size", size);
+            });
+        });
+</script>		
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+	</head>
+	<body>
+		<a href="index.html"><img style="top:2px;position:fixed;right:10px;z-index:99;max-height:30px" src="nu.png"/></a>
+		<div id="page">
+			<div class="header Fixed">
+				<a href="#menu"><span></span></a>
+KHUTBAH JUMAT
+			</div>
+<div class="content" id="content">
+<div class="arabcenter">
+بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
+</div>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Cari tema khutbah atau nama bulan hijriah.." title="Type in a category">
+<ul id="myMenu">
+<li><a href="khutbahjumat34.html">✪ Keistimewaan Hari Jumat yang Kerap Dilupakan<noscript>Khutbah Jumat,sayyidul ayyâm atau rajanya hari,hari raya kaum mukmin,Jumat adalah hajinya orang-orang fakir</noscript></a></li>
+  <li><a href="khutbahjumat1.html">✪ Berteman yg Baik, Cara Memperbaiki Kualitas Diri<noscript>akhlak,introspeksi,muhasabah,maulid,muhammad</noscript></a></li>
+  <li><a href="khutbahjumat2.html">✪ Iblis, Suri Teladan Pertama Penyebar Hoaks<noscript>adam,hawa,syetan,hoaks</noscript></a></li>
+  <li><a href="khutbahjumat3.html">✪ Bagaimana Kita Mengisi Momen Maulid Nabi?<noscript>muhammad,maulid,rabiul awal</noscript></a></li>
+  <li><a href="khutbahjumat4.html">✪ Bulan Safar dan Momentum Menghargai Waktu<noscript>safar,adwa,hamah,penyakit,mitos</noscript></a></li>
+  <li><a href="khutbahjumat5.html">✪ Agar Mencintai dan Dicintai Rasulullah<noscript>muhammad,rabiul awal,maulud</noscript></a></li>
+    <li><a href="khutbahjumat7.html">✪ Pesan Kemanusiaan Rasulullah di Bulan Dzulhijjah<noscript>dzulhijjah,haji,idul adha</noscript></a></li>
+  <li><a href="khutbahjumat8.html">✪ Yang Penting Diperhatikan di Bulan Muharram<noscript>tahun baru islam, muharam,sura,asyura</noscript></a></li>
+  <li><a href="khutbahjumat9.html">✪ Tiga Hal Penting di Bulan Rajab<noscript>rajab,isra dan miroj</noscript></a></li>
+  <li><a href="khutbahjumat10.html">✪ Menghadapi Derasnya Informasi di Era Teknologi<noscript>hoaks,sosmed,facebook,mui,fatwa mui</noscript></a></li>
+  <li><a href="khutbahjumat11.html">✪ Yang Dilakukan Nabi di Bulan Sya’ban<noscript>sya'ban,puasa,sosmed,facebook,</noscript></a></li>
+  <li><a href="khutbahjumat12.html">✪ Lima Golongan yang Dikhawatirkan Su’ul Khatimah<noscript>salat,amal pertama,nasihat</noscript></a></li>
+  <li><a href="khutbahjumat13.html">✪ Pentingnya Sabar bagi Orang Terkena Musibah<noscript>nasihat</noscript></a></li>
+  <li><a href="khutbahjumat14.html">✪ Orang2 Bangkrut dlm Agama Menurut Rasulullah<noscript>nasihat</noscript></a></li>
+  <li><a href="khutbahjumat15.html">✪ Pentingnya Beramal dengan Ikhlas<noscript>nasihat,muhasabah</noscript></a></li>
+  <li><a href="khutbahjumat16.html">✪ Bulan Rajab, Momentum Membenahi Shalat<noscript>rajab,salat,Rajab adalah bulan menanam, Sya’ban adalah bulan menyiram, sedangkan Ramadhan adalah bulan menuai</noscript></a></li>
+  <li><a href="khutbahjumat17.html">✪ Sebaik-baik Umur adalah yang Diberkati Allah<noscript>sebaik-baik manusia,sebaik-baik umur,Ushul Fiqh,</noscript></a></li>
+    <li><a href="khutbahjumat18.html">✪ Mereduksi Ekstremisme Melalui Pendalaman Aqidah<noscript>tauhid,nasihat,</noscript></a></li>
+    <li><a href="khutbahjumat19.html">✪ Yang Lebih Gawat ketimbang Teguran Berupa Bencana<noscript>nasihat,insaf, tobat, dan berusaha memperbaiki diri</noscript></a></li>	
+  <li><a href="khutbahjumat20.html">✪ Tahun Politik, Jangan Sebar Caci Maki!<noscript>nasihat,insaf, tobat, dan berusaha memperbaiki diri</noscript></a></li>	
+  <li><a href="khutbahjumat21.html">✪ Tiga Pelajaran Penting Bencana Alam bagi Tiap Muslim<noscript>nasihat,musibah, nikmat</noscript></a></li>	
+<li><a href="khutbahjumat22.html">✪ Bagaimana Kita Mengisi Bulan Muharram?<noscript>Sesungguhnya jumlah bulan menurut Allah ialah dua belas bulan,menyantuni anak yatim</noscript></a></li>	
+<li><a href="khutbahjumat23.html">✪ Persiapan Rohani Menyambut Ramadhan<noscript>Puasa Ramadhan.</noscript></a></li>	
+<li><a href="khutbahjumat24.html">✪ Membangun Optimisme Menjalani Hidup<noscript>kesulitan, keterpurukan, ramadhan</noscript></a></li>	
+<li><a href="khutbahjumat25.html">✪ Pemuda yang Dinaungi Allah di Padang Mahsyar<noscript>Ada tujuh golongan</noscript></a></li>	
+<li><a href="khutbahjumat26.html">✪ Dampak Rohani dari Apa yang Kita Konsumsi<noscript>nasihat, termasuk anak, cucu, istri, 
+dan keluaraga kita, terjaga dari barang-barang haram</noscript></a></li>	
+<li><a href="khutbahjumat27.html">✪ Para Nabi itu Pejuang Kemerdekaan<noscript>Khutbah Jumat HUT RI,pejuang</noscript></a></li>	
+<li><a href="khutbahjumat28.html">✪ Ikhtiar Memfungsikan Masjid dengan Benar<noscript>Khutbah Jumat,fungsi masjid,</noscript></a></li>	
+<li><a href="khutbahjumat6.html">✪ Puasa dan Tiga Kesalehan<noscript>puasa,ramadhan,saleh</noscript></a></li>
+<li><a href="khutbahjumat29.html">✪ Hikmah dan Berkah Bulan Ramadhan<noscript>Khutbah Jumat,puasa</noscript></a></li>	
+<li><a href="khutbahjumat31.html">✪ Pesan Damai Bulan Ramadhan<noscript>Khutbah Jumat,puasa</noscript></a></li>	
+<li><a href="khutbahjumat32.html">✪ Enam Adab Berpuasa Menurut Imam al-Ghazali<noscript>Khutbah Jumat,puasa</noscript></a></li>	
+<li><a href="khutbahjumat30.html">✪ Bagaimana Mengisi Jelang Akhir Ramadhan?<noscript>Khutbah Jumat,puasa</noscript></a></li>	
+<li><a href="khutbahjumat33.html">✪ Perbaiki Kualitas Hidup pada Lailatul Qadar<noscript>Khutbah Jumat,ramadhan,puasa</noscript></a></li>
+<li><a href="khutbahjumat35.html">✪ Mengapa Umat Nabi Nuh dan Nabi Hud Ditimpa Bencana?<noscript>Khutbah Jumat</noscript></a></li>
+<li><a href="khutbahjumat36.html">✪ Takbir Menggema, Takabur (Seharusnya) Sirna<noscript>Khutbah Jumat,syawal,minggu pertama</noscript></a></li>
+<li><a href="khutbahjumat37.html">✪ Menyelami Fitrah Kemanusiaan Kita<noscript>Khutbah Jumat,syawal</noscript></a></li>
+<li><a href="khutbahjumat38.html">✪ Teladan Rekonsiliasi dari Nabi<noscript>Khutbah Jumat,politik,syawal,teladan nabi,uswatun khasanah,perdaimaian</noscript></a></li>
+<li><a href="khutbahjumat39.html">✪ Menghidupkan Spirit Ramadhan Sepanjang Masa<noscript>Syawal ini, atas dasar latihan selama Ramadhan, semoga menjadikan ibadah kita semakin meningkat</noscript></a></li>
+<li><a href="khutbahjumat40.html">✪ Bekal Abadi Ke Akhirat<noscript>dzulqodah,dzikir empat,subhanallah,walhamdulillah,lakhaula,allahu akbar,al baqiyatus sholihah</noscript></a></li>
+<li><a href="khutbahjumat41.html">✪ Mengambil Hikmah Dari Keutamaan Bulan Dzulhijjah<noscript>haji, bulan dzulhijjah,bulan haji, qurban,puasa arofah, puasa asyura</noscript></a></li>
+<li><a href="khutbahjumat42.html">✪ Memuliakan Bulan-Bulan Haram<noscript>haji, bulan dzulhijjah,bulan haji, qurban,puasa arofah, puasa asyura,4 bulan haram,bulan mulia</noscript></a></li>
+<li><a href="khutbahjumat43.html">✪ Memahami Kewajiban Melaksanakan Ibadah Haji<noscript>haji, bulan dzulhijjah,bulan haji, qurban,puasa arofah, puasa asyura,memilih saja mati sebagai seorang Yahudi atau Nasrani</noscript></a></li>
+<li><a href="khutbahjumat44.html">✪ Apa yang Terbesit di Balik Keinginan Berangkat Haji?<noscript>haji, bulan dzulhijjah,bulan haji, qurban,puasa arofah, puasa asyura,memilih saja mati sebagai seorang Yahudi atau Nasrani</noscript></a></li>
+<li><a href="khutbahjumat45.html">✪ Ibadah Haji, antara Kebutuhan dan Keinginan<noscript>haji, bulan dzulhijjah,bulan haji, qurban</noscript></a></li>
+<li><a href="khutbahjumat46.html">✪ Cinta Tanah Air Bagian dari Iman<noscript>cinta tanah air,hubul wathon</noscript></a></li>
+<li><a href="khutbahjumat47.html">✪ Agar Terhindar dari Rasisme<noscript>manusiawi dan memanusiakan manusia</noscript></a></li>
+<li><a href="khutbahjumat48.html">✪ Keistimewaan Muharram dan Hikmah Hijrah<noscript>muharam, tahun baru islam, tahun baru hijriah</noscript></a></li>
+<li><a href="khutbahjumat49.html">✪ Menjalin Kerukunan Hidup di Indonesia<noscript></noscript></a></li>
+<li><a href="khutbahjumat50.html">✪ Mengenang Dakwah Nabi Musa pada Muharram<noscript>puasa sura,puasa muharom,puasa yahudi</noscript></a></li>
+<li><a href="khutbahjumat51.html">✪ Antara Bermedia Sosial dan Membaca Al-Qur’an<noscript>muharom, bekal akhirat, tadarus, mengaji </noscript></a></li>
+<li><a href="khutbahjumat52.html">✪ Sejarah Khatib Membaca QS An-Nahl 90<noscript>safar,nasihat </noscript></a></li>
+<li><a href="khutbahjumat53.html">✪ Menahan Diri Menyakiti Sesama Anak Bangsa<noscript>safar,nasihat </noscript></a></li>
+
+<li><a href="khutbahjumat54.html">✪ Haramnya Khamr dan Ancaman bagi Peminumnya<noscript>nasihat </noscript></a></li>
+<li><a href="khutbahjumat55.html">✪ Agar Tak Gampang Menvonis Sesat Orang Lain<noscript>nasihat </noscript></a></li>
+<li><a href="khutbahjumat56.html">✪ Celaan Syariat terhadap Sikap Adu Domba<noscript>nasihat </noscript></a></li>
+<li><a href="khutbahjumat57.html">✪ Ancaman-ancaman bagi Orang Kikir<noscript>nasihat, mulud, maulid </noscript></a></li>
+<li><a href="khutbahjumat58.html">✪ Rasulullah Orang Pertama yang Memperingati Maulidnya<noscript>robiul awal, mulud, maulid </noscript></a></li>
+<li><a href="khutbahjumat59.html">✪ Agar Pekerjaan Halal, Berkah, dan Manfaat<noscript>robiul awal, mulud, maulid, nasihat </noscript></a></li>
+<li><a href="khutbahjumat60.html">✪ Delapan Perkara yang Tak Pernah Puas dengan Delapan Perkara<noscript>robiul awal, mulud, maulid, nasihat </noscript></a></li>
+<li><a href="khutbahjumat61.html">✪ Tiga Faktor Penyelamat<noscript>robiul awal, maulid, nasihat </noscript></a></li>
+<li><a href="khutbahjumat62.html">✪ Khutbah Jumat Penghujung Tahun: Menguliti Aib Diri Sendiri<noscript>robiul akhir, nasihat, tahun baru masehi </noscript></a></li>
+<li><a href="khutbahjumat64.html">✪ Khutbah Akhir Tahun: Muhasabah 6 Sifat yang Dibenci Allah<noscript>desember</noscript></a></li>
+<li><a href="khutbahjumat63.html">✪ Nabi Isa dan Kisahnya dalam Al-Qur’an<noscript>nabi isa, desember</noscript></a></li>
+<li><a href="khutbahjumat65.html">✪ Khutbah Tahun Baru: Memperbaiki Orientasi Hidup<noscript>januari, jumadil awal</noscript></a></li>
+<li><a href="khutbahjumat66.html">✪ 7 Adab Menjaga Lisan Menurut Sayyid Abdullah al-Haddad<noscript>januari, nasihat, jumadil awal</noscript></a></li>
+<li><a href="khutbahjumat67.html">✪ Musibah, Muhasabah, dan Mahabbah<noscript>banjir, bencana, nasihat</noscript></a></li>
+<li><a href="khutbahjumat68.html">✪ 4 Hal yang Dipertanggungjawabkan di Hari Kiamat<noscript>nasihat, muhasabah, jasad, ilmu</noscript></a></li>
+<li><a href="khutbahjumat69.html">✪ Keutamaan Takwa dan Tawakal<noscript>taqwa, rizki dari arah yang tidak disangka, nasihat, januari, 2020,jumadil akhir</noscript></a></li>
+
+<li><a href="khutbahjumat70.html">✪ Perbuatan yang Paling Utama<noscript>nasihat, januari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat71.html">✪ Rezeki, antara Kualitas dan Kuantitas<noscript>nasihat, januari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat72.html">✪ Hindarkan Diri dari Menggunjing di Medsos!<noscript>nasihat, januari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat73.html">✪ Anjuran dan Larangan Menerima Pemberian Orang Lain<noscript>nasihat, januari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat74.html">✪ Larangan Bicara Agama Tanpa Dasar Ilmu<noscript>nasihat, januari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat75.html">✪ Tiga Hal yang Menyelamatkan, Tiga Hal yang Merusak<noscript>nasihat, februari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat76.html">✪ Pentingnya Menjaga Lisan<noscript>nasihat, februari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat77.html">✪ Adab dan Keutamaan Dzikir<noscript>nasihat, februari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat78.html">✪ Virus Merebak, Pertanda Kiamat Kian Mendekat<noscript>nasihat, februari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat79.html">✪ Mewaspadai Virus Takabur<noscript>nasihat, februari, 2020,jumadil akhir</noscript></a></li>
+<li><a href="khutbahjumat80.html">✪ Pentingnya Mengendalikan Amarah<noscript>nasihat, februari, 2020,rajab</noscript></a></li>
+<li><a href="khutbahjumat81.html">✪ Memetik Hikmah dari Peristiwa Isra’ Mi’raj<noscript>nasihat, februari, 2020,rajab</noscript></a></li>
+<li><a href="khutbahjumat82.html">✪ Keutamaan Bulan Rajab dan Peristiwa-peristiwa Penting di Dalamnya<noscript>nasihat, februari, 2020,rajab</noscript></a></li>
+<li><a href="khutbahjumat83.html">✪ Bulan Rajab dan Kualitas Shalat Kita<noscript>nasihat, maret, 2020,rajab</noscript></a></li>
+<li><a href="khutbahjumat84.html">✪ Tafsir Ayat Isra’ Mi’raj<noscript>nasihat, maret, 2020,rajab</noscript></a></li>
+<li><a href="khutbahjumat85.html">✪ Tiga Kunci Utama Pintu Surga<noscript>nasihat, maret, 2020,rajab</noscript></a></li>
+<li><a href="khutbahjumat86.html">✪ Ikhtiar Bumi dan Langit Hadapi Corona<noscript>nasihat, maret, korona, virus, 2020,rajab</noscript></a></li>
+
+<li><a href="khutbahjumat87.html">✪ Mukjizat Mi’raj Tidak Berarti Allah di Atas<noscript>nasihat, maret,rajab</noscript></a></li>
+<li><a href="khutbahjumat88.html">✪ Merenungi Kekuasaan Allah dari Fenomena Covid-19<noscript>nasihat, maret,corona</noscript></a></li>
+<li><a href="khutbahjumat89.html">✪ Saat Hati Nabi Dibedah Malaikat Jelang Isra' Mi'raj<noscript>nasihat, maret,rajab</noscript></a></li>
+<li><a href="khutbahjumat90.html">✪ Mendaki Ridha Allah di Bulan Sya'ban<noscript>nasihat, maret,saban</noscript></a></li>
+<li><a href="khutbahjumat91.html">✪ Bertawassul dengan Sedekah agar Terhindar dari Wabah<noscript>nasihat, maret,Ramadhan</noscript></a></li>
+<li><a href="khutbahjumat92.html">✪ Kunci Meraih Kemenangan di Bulan Ramadhan<noscript>nasihat, maret,Ramadhan</noscript></a></li>
+<li><a href="khutbahjumat93.html">✪ Mungkin Ini Ramadhan Terakhir bagi Kita<noscript>nasihat, maret,Ramadhan</noscript></a></li>
+
+<li><a href="khutbahjumat94.html">✪ Jangan Sia-siakan 10 Hari Terakhir Ramadhan<noscript>nasihat, mei,Ramadhan</noscript></a></li>
+<li><a href="khutbahjumat95.html">✪ Menempa Diri di Madrasah Ramadhan<noscript>nasihat, mei,Ramadhan</noscript></a></li>
+<li><a href="khutbahjumat96.html">✪ Melepas Kepergian Ramadhan<noscript>nasihat, mei,syawal</noscript></a></li>
+<li><a href="khutbahjumat97.html">✪ Batal Berangkat Haji, Jangan Bersedih Hati<noscript>nasihat,juni,syawal</noscript></a></li>
+<li><a href="khutbahjumat98.html">✪ ‘Normal Baru’ untuk Memadamkan Api Jahanam<noscript>nasihat,juni,syawal</noscript></a></li>
+<li><a href="khutbahjumat99.html">✪ Mengobati Hati dari Penyakit Riya'<noscript>nasihat,juni,syawal</noscript></a></li>
+<li><a href="khutbahjumat100.html">✪ Hati-hati Mengambil Ilmu Agama dari Internet<noscript>nasihat,juli,dzulqo'dah</noscript></a></li>
+<li><a href="khutbahjumat101.html">✪ Tiga Tipologi Orang dan Cara Terbaik Menyikapinya<noscript>nasihat,juli,dzul qodah</noscript></a></li>
+<li><a href="khutbahjumat102.html">✪ Adab-adab terhadap Masjid<noscript>nasihat,juli,dzul qodah</noscript></a></li>
+
+<li><a href="khutbahjumat103.html">✪ Oleh-oleh Haji dan Umrah<noscript>nasihat,juli,dzul qodah</noscript></a></li>
+<li><a href="khutbahjumat104.html">✪ Jelang Tahun Baru: Introspeksilah!<noscript>nasihat,juli,dzul qodah</noscript></a></li>
+<li><a href="khutbahjumat105.html">✪ Lima Perkara yang Menghalangi Terkabulnya Doa<noscript>nasihat,juli,dzul qodah</noscript></a></li>
+<li><a href="khutbahjumat106.html">✪ Merawat Kemerdekaan<noscript>nasihat,juli,dzul qodah</noscript></a></li>
+<li><a href="khutbahjumat107.html">✪ Berhati-hatilah Memilih Teman!<noscript>nasihat,september,muharom</noscript></a></li>
+<li><a href="khutbahjumat108.html">✪ Hijrah, Titik Awal Kejayaan Islam<noscript>nasihat,september,muharom</noscript></a></li>
+<li><a href="khutbahjumat109.html">✪ Agar Tak Berlarut-larut dalam Kesedihan<noscript>nasihat,september,muharom</noscript></a></li>
+<li><a href="khutbahjumat110.html">✪ Berbuat Baik kepada Tetangga<noscript>nasihat,september,muharom</noscript></a></li>
+<li><a href="khutbahjumat111.html">✪ Tiga Perkara Haram dan Tiga Perkara Makruh<noscript>nasihat,september,muharom</noscript></a></li>
+<li><a href="khutbahjumat112.html">✪ 4 Permata dalam Diri Manusia dan yang Membinasakannya<noscript>nasihat,september,muharom</noscript></a></li>
+<li><a href="khutbahjumat113.html">✪ Hak Seorang Muslim atas Muslim Lainnya<noscript>nasihat,september,muharom</noscript></a></li>
+
+<li><a href="khutbahjumat114.html">✪ Sikap Bijak Menghadapi Musibah<noscript>nasihat,oktober,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat115.html">✪ Kendalikan Diri di Tengah Banjir Informasi!<noscript>nasihat,oktober,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat116.html">✪ Pentingnya Berbakti pada Orang Tua<noscript>nasihat,oktober,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat117.html">✪ Memupuk Optimisme selama Pandemi<noscript>nasihat,oktober,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat118.html">✪ Kenapa Kita Dianjurkan Merayakan Maulid Nabi?<noscript>nasihat,oktober,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat119.html">✪ Pentingnya Menjaga Harga Diri<noscript>nasihat,nopember,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat120.html">✪ Hujan Rahmat di Bulan Maulid<noscript>nasihat,nopember,robiul awal, maulud, mulud</noscript></a></li>
+
+<li><a href="khutbahjumat121.html">✪ Kewajiban Mencintai Rasulullah<noscript>nasihat,nopember,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat122.html">✪ Kemuliaan Pekerja Keras<noscript>nasihat,nopember,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat123.html">✪ Tiga Nilai Kepahlawanan untuk Mengisi Kemerdekaan<noscript>nasihat,nopember,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat124.html">✪ Bekerjalah, Jangan Jadi Pengangguran!<noscript>nasihat,nopember,robiul awal, maulud, mulud</noscript></a></li>
+<li><a href="khutbahjumat125.html">✪ Kekhususan Nabi Muhammad dan Umatnya<noscript>nasihat,november,robiul akhir</noscript></a></li>
+<li><a href="khutbahjumat126.html">✪ Malapetaka itu Bernama Lisan<noscript>media sosial,hoax,nasihat,november,robiul akhir</noscript></a></li>
+<li><a href="khutbahjumat127.html">✪ 9 Jenis Bertutur Kata menurut Al-Qur’an<noscript>nasihat,november,robiul akhir</noscript></a></li>
+
+<li><a href="khutbahjumat128.html">✪ Jaga Lisan, Jangan Mencaci!<noscript>nasihat,desember,robiul akhir</noscript></a></li>
+<li><a href="khutbahjumat129.html">✪ Pengadu Domba itu Bernama Hoaks<noscript>media sosial,hoax,nasihat,desember,robiul akhir</noscript></a></li>
+<li><a href="khutbahjumat130.html">✪ Soal Berlebih-lebihan dalam Beragama<noscript>media sosial,hoax,nasihat,desember,robiul akhir</noscript></a></li>
+<li><a href="khutbahjumat131.html">✪ Tiga Macam Bentuk Sabar<noscript>media sosial,hoax,nasihat,desember,robiul akhir</noscript></a></li>
+<li><a href="khutbahjumat132.html">✪ Kelembutan Hati dan Cinta dalam Ajaran Islam<noscript>media sosial,hoax,nasihat,desember,robiul akhir</noscript></a></li>
+<li><a href="khutbahjumat133.html">✪ Dosa Paling Besar Setelah Syirik dan Kufur<noscript>media sosial,hoax,nasihat,desember,robiul akhir</noscript></a></li>
+
+<li><a href="khutbahjumat134.html">✪ Dua Tingkatan Tobat<noscript>nasihat,desember,jumadil awal, jumadal ula</noscript></a></li>
+<li><a href="khutbahjumat135.html">✪ Semua Nabi adalah Muslim<noscript>media nasihat,desember,jumadil awal, jumadal ula</noscript></a></li>
+<li><a href="khutbahjumat136.html">✪ Menjadi Manusia Terbaik<noscript>media nasihat,desember,jumadil awal, jumadal ula</noscript></a></li>
+<li><a href="khutbahjumat137.html">✪ Allah Sembunyikan 3 Perkara dalam 3 Perkara<noscript>media nasihat,januari,jumadil awal, jumadal ula</noscript></a></li>
+<li><a href="khutbahjumat138.html">✪ Zaman Berubah, Tetaplah Istiqamah!<noscript>media nasihat,januari,jumadil awal, jumadal ula</noscript></a></li>
+<li><a href="khutbahjumat139.html">✪ 4 Pelajaran di Balik Protokol Kesehatan<noscript>media nasihat,januari,jumadil awal, jumadal ula</noscript></a></li>
+
+<li><a href="khutbahjumat140.html">✪ Vaksin dan Ikhtiar Menjaga Kesehatan Diri, Keluarga, dan Negara<noscript>media nasihat,januari,jumadil akhir, jumadal akhir</noscript></a></li>
+<li><a href="khutbahjumat141.html">✪ Pentingnya Menjaga Amanah Ilmu<noscript>media nasihat,januari,jumadil awal, jumadal ula</noscript></a></li>
+</ul>
+<a class="font-button plus"><img style="bottom:18px;position:fixed;right:0px;width:50px;" src="masjid4.png"/></a>
+<a class="font-button minus"><img style="bottom:18px;position:fixed;left:0px;width:50px;" src="masjid3.png"/></a>
+			</div>
+			<div class="footer Fixed">
+				© islamiapps
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">✪ Home</a></li>
+					<li><a href="tentang.html">✪ Tentang Aplikasi</a></li>
+					<li><a href="syarat.html" rel="external">✪ Syarat dan Rukun Khutbah</a></li>					
+					<li><a href="khutbahjumat.html">✪ Khutbah Jumat Bhs. Indonesia</a></li>
+					<li><a href="khutbahjawa.html">✪ Khutbah Jumat Bhs. Jawa</a></li>		
+					<li><a href="khutbahiduladha.html">✪ Khutbah Idul Adha</a></li>			
+					<li><a href="khutbahidulfitri.html">✪ Khutbah Idul Fitri</a></li>
+					<li><a href="pembuka.html" rel="external">✪ Pembuka Khutbah Jumat</a></li>		
+					<li><a href="penutup.html" rel="external">✪ Penutup Khutbah Jumat</a></li> 
+					<li><a href="kultum.html" rel="external">✪ Materi Kultum/ Ceramah</a></li>
+					<li><a href="doasholawat.html" rel="external">✪ Doa, Sholawat, dll.</a></li>		
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
