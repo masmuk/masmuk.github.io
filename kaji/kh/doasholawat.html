@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Mr. Mung" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<title>DOA-DOA</title>
+
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="jquery.mmenu.all.css" />
+<style type="text/css"> 
+@font-face {font-family: 'LPMQ Isep Misbah'; src: url('LPMQ_IsepMisbah.ttf');}
+@font-face {font-family: 'KFGQPC Uthmanic Script HAFS'; src: url('UthmanicHafs1 Ver09.otf');}
+@font-face {font-family: 'KFGQPC_Naskh'; src: url('KFC_naskh.eot'); src: local('KFGQPC Uthman Taha Naskh'), url('KFC_naskh.otf') format('opentype');}
+</style>
+		<!-- for the one page layout -->
+		<style type="text/css">
+			section
+			{
+				border-top: 1px solid #ccc;
+				padding: 150px 0 200px;
+			}
+			section:first-child
+			{
+				border-top: none;
+				padding-top: 0;
+			}
+		</style>
+		
+		<!-- for the fixed header -->
+		<style type="text/css">
+			.header,
+			.footer
+			{
+				position: fixed;
+				left: 0;
+				right: 0;
+			}
+			.header
+			{
+				top: 0;
+			}
+			.footer
+			{
+				bottom: 0;
+			}
+			@media (min-width: 1920px) {
+				.header a
+				{
+					display: none;
+				}
+			}
+
+		</style>
+
+		
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="hammer.min.js"></script>
+
+		<script type="text/javascript" src="jquery.mmenu.all.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu({
+					drag 		: true,
+					pageScroll 	: {
+						scroll 		: true,
+						update		: true
+					},
+					// extensions: {
+					// 	'all': ['pagedim-white'],
+					// 	'(min-width: 400px)' : ['pagedim-black']
+					// },
+					sidebar 	: {
+						expanded 	: 1920
+					}
+				});
+			});
+		</script>
+<script type="text/javascript">
+        $(function () {
+            $(".font-button").bind("click", function () {
+                var size = parseInt($('#content').css("font-size"));
+                if ($(this).hasClass("plus")) {
+                    size = size + 2;
+                } else {
+                    size = size - 2;
+                    if (size <= 10) {
+                        size = 10;
+                    }
+                }
+                $('#content').css("font-size", size);
+            });
+        });
+</script>		
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+	</head>
+	<body>
+		<a href="index.html"><img style="top:2px;position:fixed;right:10px;z-index:99;max-height:30px" src="nu.png"/></a>
+		<div id="page">
+			<div class="header Fixed">
+				<a href="#menu"><span></span></a>
+DOA DAN SHOLAWAT
+			</div>
+<div class="content" id="content">
+<div class="arabcenter">
+بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ
+</div>
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Cari Doa dan Sholawat..." title="Type in a category">
+<ul id="myMenu">
+<li><a href="takbiran.html">✪ Bacaan Takbiran Hari Raya Idul Fitri / Idul Adha</a></li> 
+<li><a href="bilaljumat.html">✪ Bilal Jum'at<noscript>bilal, cara bilal, muadzin</noscript></a></li>  
+<li><a href="bilaltarawih.html">✪ Bilal Tarawih dan Witir<noscript>bilal, cara bilal</noscript></a></li>  
+<li><a href="mandijenazah.html">✪ Cara Memandikan Jenazah</a></li> 
+<li><a href="mengkafani.html">✪ Cara Mengkafani Jenazah</a></li> 
+<li><a href="istighosah.html">✪ Doa Istighosah<noscript>doa,nu</noscript></a></li>
+<li><a href="doakafaratulmajlis.html">✪ Doa Kafaratul Majlis<noscript>doa</noscript></a></li>  
+<li><a href="doakhatam.html">✪ Doa Khotmil Quran</a><noscript>doa, kataman, khatmil quran</noscript></li>
+<li><a href="doasakit.html">✪ Doa Menjenguk Orang Sakit</a><noscript>doa, orang sakit</noscript></li> 
+<li><a href="doaqunut.html">✪ Doa Qunut<noscript>doa</noscript></a></li>
+<li><a href="sayidulistighfar.html">✪ Doa Sayyidul Istighfar<noscript>istighfar, taubat</noscript></a></li>
+<li><a href="doasetelahsholat.html">✪ Doa Setelah Shalat<noscript>doa</noscript></a></li>
+<li><a href="doatahlil.html">✪ Doa Tahlil<noscript>doa,nu</noscript></a></li>
+<li><a href="doanikah.html">✪ Doa Pernikahan<noscript>doa nikah, nikah</noscript></a></li> 
+<li><a href="doatarawih.html">✪ Doa Setelah Shalat Tarawih</a><noscript>doa</noscript></li>  
+<li><a href="doamitoni.html">✪ Doa Tingkeban (7 Bulan Kehamilan)</a><noscript>doa, lahiran,aqiqoh, mitoni, 7 bulan, tujuh bulan kehamilan</noscript></li> 
+<li><a href="wirid.html">✪ Dzikir Setelah Shalat Fardlu<noscript>dzikir, wirid, sholat, fardu</noscript></a></li>
+<li><a href="duha.html">✪ Sholat Sunnah Dhuha<noscript>Sholat, salat, tata cara</noscript></a></li>
+<li><a href="tahajud.html">✪ Sholat Sunnah Tahajud<noscript>Sholat, salat, tahajud, doa tahajud, tata cara</noscript></a></li>
+<li><a href="hajat.html">✪ Sholat Sunnah Hajat<noscript>Sholat, salat, hajat, tata cara</noscript></a></li>
+<li><a href="sholattasbih.html">✪ Sholat Sunnah Tasbih<noscript>Sholat, salat, tata cara</noscript></a></li>
+<li><a href="yasin.html">✪ Surat Yasin (Latin dan Terjemah)<noscript>Yaasiin</noscript></a></li>
+<li><a href="sholawat.html">✪ Sholawat Penutup Majlis<noscript>sholawat,doa</noscript></a></li>  
+<li><a href="sholawatasygil.html">✪ Sholawat Asygil</a></li> 
+<li><a href="sholawatbahriyah.html">✪ Sholawat Bahriyyah</a></li>  
+<li><a href="sholawatalfatih.html">✪ Sholawat Al Fatih</a></li> 
+<li><a href="jenazah.html">✪ Tata Cara Sholat Jenazah</a></li> 
+<li><a href="tahlil.html">✪ Tahlil Lengkap<noscript>doa,nu</noscript></a></li>
+<li><a href="tatacarasholat.html">✪ Tuntunan Sholat Lengkap<noscript>Sholat, salat</noscript></a></li>
+
+</ul>
+			</div>
+
+<a class="font-button plus"><img style="bottom:18px;position:fixed;right:0px;width:50px;" src="masjid4.png"/></a>
+<a class="font-button minus"><img style="bottom:18px;position:fixed;left:0px;width:50px;" src="masjid3.png"/></a>
+			<div class="footer Fixed">
+				© islamiapps
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">✪ Home</a></li>
+					<li><a href="tentang.html">✪ Tentang Aplikasi</a></li>
+					<li><a href="syarat.html" rel="external">✪ Syarat dan Rukun Khutbah</a></li>					
+					<li><a href="khutbahjumat.html">✪ Khutbah Jumat Bhs. Indonesia</a></li>
+					<li><a href="khutbahjawa.html">✪ Khutbah Jumat Bhs. Jawa</a></li>		
+					<li><a href="khutbahiduladha.html">✪ Khutbah Idul Adha</a></li>			
+					<li><a href="khutbahidulfitri.html">✪ Khutbah Idul Fitri</a></li>
+					<li><a href="pembuka.html" rel="external">✪ Pembuka Khutbah Jumat</a></li>		
+					<li><a href="penutup.html" rel="external">✪ Penutup Khutbah Jumat</a></li> 
+					<li><a href="kultum.html" rel="external">✪ Materi Kultum/ Ceramah</a></li>
+					<li><a href="yasin.html" rel="external">✪ Surat Yasin (Latin dan Terjemah)</a></li>						
+					<li><a href="doasholawat.html" rel="external">✪ Doa, Sholawat, dll.</a></li>		
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
