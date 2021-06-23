@@ -1,9 +1,1 @@
-<script> function setURI() {
-    	var httpClient = new Windows.Web.Http.HttpClient();
-    	var originalurl = new Windows.Foundation.Uri("http://rr2.dens.tv/s/s28/index.m3u8");
-    	httpClient.getAsync(originalurl).then(function (response) {
-    		url = response.requestMessage.requestUri;
-             //requestUri will be Windows Windows.Foundation.Uri instance of the 
-             //"http://samplescdn.origin.mediaservices.windows.net/0996004b-30f5-44b0-8063-4abe5f369ab1/AzureMediaServices_Overview.ism/manifest(format=m3u8-aapl)"
-    	})
-    }</script>
+<script> document.location = "http://rr2.dens.tv/s/s28/index.m3u8"</script>
