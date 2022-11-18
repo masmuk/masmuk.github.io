@@ -1,35 +1,46 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset=utf-8 />
-    <title>Your title</title>
-	
-	<style>
-  html body{
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: 0;
-  }
-  </style>
-      
-    
-      <link href="my.css" rel="stylesheet">
-      <script src="video.js"></script>
-      <script src="hls.js"></script>
-       
-    </head>
-    <body>
-      <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
-      data-setup='{}'>
-        <source src="http://rr2.dens.tv/s/s27/index.m3u8" type="application/x-mpegURL">
-      </video>
-      
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HLS Player</title>
+	<style type="text/css">
+#video {
+position: fixed;
+left: 0px;
+top: 0px;
+height: 100vh;
+width: 100vw;
+background-color: black;
+}
+</style>
+</head>
+
+<body>
+    <video id="video" autoplay="autoplay" controls></video>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script> -->
+    <script src="https://hls-js.netlify.app/dist/hls.js"></script>
     <script>
-    var player = videojs('my_video_1');
-    player.play();
+            const video = document.getElementById('video');
+            const videoSrc = 'https://cllive.itworkscdn.net/ksasunnalive/token=nva=1668802758~dirs=1~hash=083f2f95d506a441bf10c/ksasunna.smil/ksasunna_360p_chunks_dvr.m3u8';
+
+            if (Hls.isSupported()) {
+                const hls = new Hls();
+
+                hls.loadSource(videoSrc);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, () => {
+                    video.play();
+                });
+            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = videoSrc;
+                video.addEventListener('loadedmetadata', () => {
+                    video.play();
+                });
+            }
+        
+
     </script>
-      
-    </body>
-    </html>
+</body>
+
+</html>
